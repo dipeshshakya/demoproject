@@ -12,7 +12,7 @@
        <link rel="stylesheet" type="text/css" href="/css/app.css">
     </head>
     <body>
-       <div id="example">
+       <div id="app">
            
        </div>
        <script type="text/javascript" src="/js/app.js"></script>

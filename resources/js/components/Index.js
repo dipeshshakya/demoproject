@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
-export default class Example extends Component {
+import Header from './Header'
+import Footer from './Footer'
+export default class Index extends Component {
     render() {
         return (
             <div className="container">
+            <Header/>
                 <div className="row justify-content-center">
                     <div className="col-md-8">
                         <div className="card">
@@ -16,11 +18,13 @@ export default class Example extends Component {
                         </div>
                     </div>
                 </div>
+            <Footer/>    
             </div>
+            
         );
     }
 }
 
-if (document.getElementById('example')) {
-    ReactDOM.render(<Example />, document.getElementById('example'));
+if (document.getElementById('app')) {
+    ReactDOM.render(<Index />, document.getElementById('app'));
 }
